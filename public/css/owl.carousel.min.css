@@ -15,8 +15,8 @@
 }
 .owl-carousel .owl-stage {
     position: relative;
-    /*-ms-touch-action: pan-Y;
-     touch-action: manipulation;*/
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
     -moz-backface-visibility: hidden;
 }
 .owl-carousel .owl-stage:after {
@@ -31,6 +31,7 @@
     position: relative;
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0);
+    height: 50%;
 }
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
