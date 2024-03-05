@@ -242,7 +242,7 @@ body {
 }
 
 .active {
-    background-color: #717171;
+    /*background-color: #717171;*/
 }
 
 /* Fading animation */
@@ -272,8 +272,20 @@ body {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+/*@media only screen and (max-width: 375px) {
     .text {
         font-size: 11px;
+    }
+}*/
+
+@media screen and (max-width: 1200px) {
+    .menu {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .menu {
+        width: 30%;
     }
 }
