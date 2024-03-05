@@ -31,8 +31,7 @@
     position: relative;
     overflow: hidden;
     -webkit-transform: translate3d(0, 0, 0);
-    overflow-x: hidden;
-    overflow-y: auto;
+    scroll-behavior: smooth;
 }
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
