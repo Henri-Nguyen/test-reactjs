@@ -329,7 +329,7 @@ img[src="assets/images/blank.gif"] {
 .inner-bottom-20 {
   padding-bottom: 20px;
 }
-@media (max-width: 320px) {
+@media all  (max-width: 320px) {
   .inner {
     padding-top: 80px;
     padding-bottom: 80px;
