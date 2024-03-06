@@ -1,17 +1,19 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon/icomoon.eot?6tt51o');
-  src:  url('../fonts/icomoon/icomoon.eot?6tt51o#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon/icomoon.ttf?6tt51o') format('truetype'),
-    url('../fonts/icomoon/icomoon.woff?6tt51o') format('woff'),
-    url('../fonts/icomoon/icomoon.svg?6tt51o#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot?6tt51o");
+  src:
+    url("../fonts/icomoon/icomoon.eot?6tt51o#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?6tt51o") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?6tt51o") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?6tt51o#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1525,7 +1527,7 @@
   content: "\f1d7";
 }
 .icon-paper-plane:before {
-  content: "\f1d8";
+  content: "\f199";
 }
 .icon-send:before {
   content: "\f1d8";
@@ -2743,7 +2745,7 @@
   content: "\e7e9";
 }
 .icon-phone2:before {
-  content: "\e0cd";
+  content: "\e325";
 }
 .icon-call_end:before {
   content: "\e0b1";
