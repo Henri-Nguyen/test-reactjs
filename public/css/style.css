@@ -4498,7 +4498,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6ea;
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
@@ -10578,7 +10578,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    /*background: #000000 !important;*/ /*Collor Menu dropdown*/
     position: relative;
     top: 0;
     padding: 10px 15px;
@@ -10678,7 +10678,7 @@ h5,
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-  color: #0ca8b3;
+  color: #000000;
 }
 @media (max-width: 767.98px) {
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
