@@ -13153,6 +13153,7 @@ body {
   background: #75ccc7; /*Hieu ung nhat mau khi re chuot vao nut Search*/
 }
 
+/*Code Hien thi giao dien tren dien thoai*/
 @media screen and (max-width: 600px) {
   .topnav .search-container {
     float: none;
@@ -13160,14 +13161,20 @@ body {
   .topnav a,
   .topnav input[type="text"],
   .topnav .search-container button {
-    float: none;
+    float: right;
     display: block;
     text-align: left;
-    width: 100%;
-    margin: 0;
+
+    margin-top: 2px; /*Canh le tren*/
+    margin-right: 4px; /*Canh le ben phai*/
     padding: 14px;
   }
   .topnav input[type="text"] {
-    border: 1px solid #ccc;
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 85%; /*Length of Search TextBox*/
   }
 }
