@@ -3753,7 +3753,7 @@
   content: "\e546";
 }
 .icon-shopping_cart:before {
-  content: "\e8cc";
+  content: "\e8cc"; /*Icon Shoppingcart*/
 }
 .icon-local_hospital:before {
   content: "\e548";
