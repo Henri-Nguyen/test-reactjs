@@ -13127,6 +13127,7 @@ body {
 
 .topnav .search-container {
   float: left;
+  width: 100%;
 }
 
 .topnav input[type="text"] {
