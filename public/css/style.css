@@ -13135,7 +13135,7 @@ body {
   margin-top: 4px;
   font-size: 17px;
   border: none;
-  width: 1050px; /*Length of Search TextBox*/
+  width: 95%; /*Length of Search TextBox*/
 }
 
 .topnav .search-container button {
