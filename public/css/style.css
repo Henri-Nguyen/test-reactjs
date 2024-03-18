@@ -10864,7 +10864,7 @@ h5,
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background: #82ae46;
+  background: #4070f4; /*Collor Mui ten Footer*/
   cursor: pointer;
   position: relative;
   text-align: center;
@@ -11184,7 +11184,7 @@ h5,
   outline: none;
 }
 .btn.btn-primary {
-  background: #82ae46;
+  background: #4070f4; /*Collor Button*/
   border: 1px solid #82ae46;
   color: #fff;
 }
@@ -11702,7 +11702,7 @@ h5,
   font-weight: 500;
 }
 .table .thead-primary {
-  background: #82ae46;
+  background: #4070f4; /*Collor Table Catalogue*/
 }
 .table .thead-primary tr th {
   padding: 20px 10px;
@@ -13141,7 +13141,7 @@ body {
   border: none;
   padding: 12px 30px;
   border-radius: 6px;
-  background-color: #4070f4;
+  background-color: #4070f4; /*Collor Button Search*/
   cursor: pointer;
 }
 .input-box .button:active {
@@ -13166,4 +13166,173 @@ body {
     font-size: 14px;
     padding: 8px 18px;
   }
+}
+
+/*===================================================================================*/
+/*  Signup and login
+/*===================================================================================*/
+.sign-in-page .register-form .forgot-password,
+.sign-in-page .register-form .forgot-password:hover,
+.sign-in-page .register-form .forgot-password:focus {
+  color: #12cca7;
+}
+.sign-in-page {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.body-content .sign-in-page .sign-in h4,
+.body-content .sign-in-page .create-new-account h4 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ddd;
+}
+.body-content .sign-in-page .sign-in p,
+.body-content .sign-in-page .create-new-account p {
+  font-size: 15px;
+  color: #666;
+}
+.body-content .sign-in-page .sign-in .social-sign-in a,
+.body-content .sign-in-page .sign-in .social-sign-in a:hover,
+.body-content .sign-in-page .sign-in .social-sign-in a:focus {
+  border-radius: 3px;
+  padding: 14px 30px;
+  font-size: 15px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+}
+.body-content .sign-in-page .sign-in .social-sign-in a i {
+  padding-right: 6px;
+}
+.body-content .sign-in-page .sign-in .social-sign-in .facebook-sign-in {
+  background-color: #3d5c98;
+  margin-right: 10px;
+}
+.body-content .sign-in-page .sign-in .social-sign-in .facebook-sign-in:hover,
+.body-content .sign-in-page .sign-in .social-sign-in .facebook-sign-in:focus {
+  background-color: #153470;
+}
+.body-content .sign-in-page .sign-in .social-sign-in .twitter-sign-in {
+  background-color: #22aadf;
+}
+.body-content .sign-in-page .sign-in .social-sign-in .twitter-sign-in:hover,
+.body-content .sign-in-page .sign-in .social-sign-in .twitter-sign-in:focus {
+  background-color: #0084b9;
+}
+.body-content .sign-in-page .create-new-account > span {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.body-content .sign-in-page .create-new-account .checkbox label {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.body-content .sign-in-page form .form-group span {
+  color: red;
+}
+.body-content .sign-in-page .register-form label {
+  font-size: 14px;
+  font-weight: 400;
+}
+.body-content .sign-in-page .register-form .form-group {
+  margin-bottom: 25px;
+}
+
+.tooltip.top {
+  padding: 5px 0;
+  margin-top: -5px;
+}
+.tooltip-inner {
+  font-family: "Open Sans", sans-serif;
+  border-radius: 2px;
+  min-width: 70px;
+  z-index: 10000;
+}
+
+/*===================================================================================*/
+/*  Wishlist
+/*===================================================================================*/
+
+.my-wishlist-page {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.heading-title {
+  text-align: left !important;
+  text-transform: none !important;
+  padding: 0px 0px 15px 0px !important;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  border-bottom: 1px #e5e5e5 solid !important;
+}
+
+.body-content .my-wishlist-page .my-wishlist table > thead > tr > th {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 400;
+}
+
+.body-content .my-wishlist-page img {
+  width: 100%;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody tr:nth-child(even) {
+  border-top: 1px solid #ddd;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 6px;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .product-name a {
+  color: #434343;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .rating span {
+  font-size: 11px;
+  color: #aaa;
+  padding-left: 10px;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .rating .rate {
+  color: #ffb400;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .rating .non-rate {
+  color: #dcdcdc;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .price {
+  font-size: 16px;
+  padding-top: 4px;
+  font-weight: bold;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .price span {
+  font-size: 15px;
+  color: #ddd;
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+.body-content .my-wishlist-page .my-wishlist table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  vertical-align: middle;
+  border: none;
+  padding: 30px;
+}
+.body-content .my-wishlist-page .my-wishlist table tbody .close-btn a,
+.body-content .my-wishlist-page .my-wishlist table tbody .close-btn a:hover {
+  color: #ff7878;
+  font-size: 15px;
 }
